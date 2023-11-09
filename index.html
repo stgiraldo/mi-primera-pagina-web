@@ -1,30 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo de HTML y CSS</title>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio Personal</title>
     <style>
-        /* Estilo para el encabezado */
-        h1 {
-            color: #333;
-            text-align: center;
-        }
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F49AC2;
+    margin: 0;
+    padding: 0;
+}
 
-        /* Estilo para el párrafo */
-        p {
-            font-size: 18px;
-            color: #666;
-        }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
 
-        /* Estilo para una clase específica */
-        .destacado {
-            font-weight: bold;
-            color: red;
-        }
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para la imagen del logo */
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+/* Estilos de las secciones */
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
     </style>
 </head>
 <body>
-    <h1>Bienvenido a mi Página Web</h1>
-    <p>Esta es una página de ejemplo que combina HTML y CSS. Puedes <span class="destacado">personalizar</span> tus estilos como desees.</p>
+    <header>
+        <img src="https://media.istockphoto.com/id/1439425791/es/foto/tecnolog%C3%ADa-digital-concepto-de-desarrollo-de-software-programador-de-codificaci%C3%B3n-que-trabaja.jpg?s=1024x1024&w=is&k=20&c=Qcs4WY_SnbmnFRoAKX40IOduImfXUywvjmJtltlBou4=" alt="Mi Logo">
+        <h1>Mi Nombre</h1>
+        <p>Desarrollador Web</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Biografía</h2>
+            <p>¡Hola! Soy [Tu Nombre], un apasionado desarrollador web con experiencia en la creación de sitios web atractivos y funcionales. Estoy comprometido con la entrega de soluciones web de alta calidad que satisfagan las necesidades de mis clientes.</p>
+        </section>
+        <section>
+            <h2>Proyectos Destacados</h2>
+            <p>Aquí puedes listar algunos de tus proyectos destacados con descripciones breves. Incluye enlaces a los proyectos o ejemplos de tu trabajo anterior.</p>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <p>¡Estaré encantado de conectarte! Puedes contactarme en [tu dirección de correo electrónico] o seguirme en [tus redes sociales]. Si estás interesado en colaborar en un proyecto, no dudes en ponerte en contacto.</p>
+        </section>
+    </div>
 </body>
 </html>
 
